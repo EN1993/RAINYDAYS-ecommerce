@@ -4,23 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
     <title>Rainydays|Home</title>
 </head>
 <body>
     <header>
-        <a href=""></a>
-        <label for=""></label>
-        <input type="text">
+        <a href="index.html" class="logo"></a>
+        <label for="humburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="humburger-menu">
         <nav>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="wommen.html">WOMMEN</a></li>
+                <li><a href="men.html">MEN</a></li>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>
             </ul>
+            <div class="search-item">
+                <i class="fas fa-search"></i>
+                <input type="search" id="search" placeholder=" search for product">
+                <div class="nav-icons">
+                    <a href=""><i class="fas fa-heart"></i></a>
+                    <a href=""><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
         </nav>
-        <input type="text">
+           
     </header>
+    <main class="wellcome-page">
+        <section class="wellcome-products">
+            <div class="wellcome-pictures">
+                <img src="images/hiking-yellow 668x,y.png" alt="picture of a girl hiking ">
+                <figcaption class="wellcome-figcap">hiking</figcaption>
+            </div>
+            <div class="wellcome-pictures">
+                <img src="images/exploring-Recovered 668x,y.png" alt="A picture of an man exploring ">
+                <figcaption class="wellcome-figcap">exploring</figcaption>
+            </div>
+            <div class="wellcome-pictures">
+                <a href="men.html"><img src="images/skiing-Recovered 668y,x.png" alt="A picture of an man skiing"></a>
+                <figcaption class="wellcome-figcap">skiing</figcaption>
+            </div>
+            <div class="wellcome-pictures">
+                <img src="images/camping 1-Recovered 668 x,y.png" alt=" a picture of an camping">
+                <figcaption class="wellcome-figcap">camping</figcaption>
+            </div>
+            <div class="wellcome-pictures  ">
+                <img src="images/kayaking-1149886_1280-Recovered 668x, y.png" alt=" a picture of a man canoeing">
+                <figcaption class="wellcome-figcap">canoeing</figcaption>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-main">
+        <div class="footer-wrapper">
+            <section class="product-links">
+                <h1>about</h1>
+                <div>
+                    <ul>
+                        <li><a href="" class="cta">hiking</a></li>
+                        <li><a href="" class="cta">skiing</a></li>
+                        <li><a href="" class="cta">canoeing</a></li>
+                        <li><a href="" class="cta">exploring</a></li>
+                        <li><a href="" class="cta">camping</a></li>
+                    </ul>
+                </div>
+                <p>2020 copyright &copy; Rainydays pushing the comfort zone</p>
+            </section>
+            <section class="product--links">
+                <h1>contact</h1>
+                <div >
+                    <ul>
+                        <li><a href="" class="cta">  <i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="" class="cta"> <i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="" class="cta"><i class="far fa-play-circle"></i> Video</a></li>
+                    </ul>
+                </div>
+                <div class="contact--home">
+                    <P class="footer-email">Rainydays@email.com</P>
+                    <a href="index.html" class="footer-home cta"><i class="fas fa-home"> HOME</i></a>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
