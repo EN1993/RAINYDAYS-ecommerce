@@ -104,7 +104,6 @@ li a:hover {
  bottom: 257px;
  right: 62px;
  font-size: 30px;
-
 }
 .fa-search {
  position: relative;
@@ -160,6 +159,10 @@ footer {
 .product--links {
  text-transform: uppercase;
 }
+..product-links,
+.product--links li {
+ list-style-type: none;
+}
 
 .footer-home {
  position: relative;
@@ -179,14 +182,15 @@ footer {
  margin: auto;
  text-align: center;
  display: flex;
- padding-top: 135px;
+ padding-top: 5em;
 }
 .wellcome-products {
- display: grid;
- grid-template-columns: 1fr;
- margin: 50px auto;
- max-width: 1200px;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 0px auto;
  gap: 10px;
+ padding-top: 50px;
 }
 
 .wellcome-pictures img {
@@ -337,9 +341,10 @@ select {
   bottom: 20px;
   left: 20px;
  }
- .wellcome-products {
-  grid-template-columns: repeat(2, 1fr);
+ .wellcome-page {
+  padding-top: 10em;
  }
+
  .men-main-products {
   padding-top: 211px;
  }
@@ -360,9 +365,11 @@ select {
 }
 
 @media only screen and (min-width: 950px) {
- .wellcome-products {
+ /*
+  .wellcome-products {
   grid-template-columns: repeat(3, 1fr);
  }
+ */
  .footer-wrapper {
   flex-direction: row;
  }
