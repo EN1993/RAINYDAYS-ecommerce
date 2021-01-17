@@ -1,0 +1,109 @@
+
+/* men products*/
+
+.men-product-review-vol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+  gap: 10px;
+ }
+ .men-product-review-vol2 {
+  height: 300px;
+  width: 300px;
+  border: 3px solid green;
+ }
+ 
+ .men-product-review-vol1 {
+  height: 300px;
+  width: 300px;
+  border: 3px solid green;
+ }
+ 
+ .men-product-review-vol2-flex {
+  display: flex;
+  gap: 10px;
+ }
+ 
+ .men-product-review-vol1 img {
+  width: 200px;
+  margin: 10px;
+ }
+ .men-main-products {
+  background: ;
+  padding-top: 105px;
+ }
+ 
+ .flexed-picture1 img {
+  border-bottom: 2px solid red;
+ }
+ .flexed-picture2 img {
+  border-bottom: 2px solid black;
+ }
+ .flexed-picture2 img,
+ .flexed-picture1 img {
+  width: 100px;
+  margin: 10px;
+ }
+ 
+ .flexed-picture2 p,
+ .flexed-picture1 p {
+  margin: 10px;
+ }
+ 
+ .men--products,
+ .men-product-review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+  gap: 10px;
+ }
+ 
+ .men-product1 img {
+  width: 300px;
+ }
+ .men-jacket p {
+  font-size: 18px;
+  font-weight: bold;
+ }
+ .men-jacket {
+  width: 300px;
+  color: white;
+  font-size: 13px;
+  background: green;
+ }
+ .cart img {
+  width: 90px;
+ }
+ .cart p {
+  font-weight: bold;
+ }
+ .cart {
+  height: 250px;
+  width: 200px;
+  border: 2px solid green;
+  padding: 10px;
+ }
+ /*
+ 
+ Add-to-cart--js
+ 
+ #add-to-cart01,
+ .cart {
+  display: none;
+ }
+ label:hover {
+  cursor: pointer;
+ }
+ #add-to-cart01:checked ~ .cart {
+  display: block;
+ }
+ */
+ #select1 {
+  background: green;
+  color: white;
+  padding: 2px 92px;
+  margin: 10px;
+  border: green;
+ }

@@ -1,0 +1,24 @@
+
+/* about page */
+
+.about h1 {
+  text-align: center;
+ }
+ .about {
+  padding-top: 6em;
+  color: #025920;
+ }
+ .about-pictures img {
+  width: 300px;
+ }
+ .about-wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px auto;
+  padding: 10px;
+ }
+ .about-wrapper > * {
+  display: flex;
+  flex: 1;
+ }

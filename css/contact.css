@@ -1,0 +1,45 @@
+
+/* contact page*/
+.contact {
+  padding-top: 200px;
+ }
+ .contact h1 {
+  text-align: center;
+ }
+ .contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+ }
+ 
+ .contact-wrapper1,
+ .contact-wrapper2 {
+  height: 400px;
+  width: 300px;
+  border: 2px solid green;
+  padding: 10px;
+ }
+ 
+ .contact-wrapper1 input {
+  display: block;
+  padding: 5px 48px;
+  border: 1px solid black;
+ }
+ .contact-textarea textarea {
+  border: 1px solid black;
+  display: block;
+  padding: 25px 0px;
+ }
+ #submit {
+  background: green;
+  cursor: pointer;
+  margin: 10px auto;
+  color: white;
+  font-weight: bold;
+ }
+ #submit:hover {
+  border: 2px solid green;
+  background: white;
+  color: green;
+ }

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="discription" content="Rainydays page for about rainydays">
+  <meta name="discription" content="Rainydays page for contact">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/media.css">
   <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
-  <title>Rainydays|About</title>
+  <title>Rainydays|contact</title>
 </head>
 <body>
   <header>
@@ -20,8 +20,8 @@
           <li><a href="">WOMMEN</a></li>
           <li><a href="men.html" >MEN</a></li>
           <li><a href="index.html" >HOME</a></li>
-          <li><a href="about.html" class="active">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html" class="active">CONTACT</a></li>
           <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
         </ul>
       <div class="search-item">
@@ -34,26 +34,42 @@
       </div>
     </nav>         
   </header>
-  <main class="about"> 
-    <h1>ABOUT US</h1>
-    <div class="about-wrapper">
-      <div class="about-pictures">
-        <img src="images/camping 1-Recovered 668 x,y.png" alt="picture of camping">
+  <main class="contact">
+    <section>
+      <h1>Contact Us</h1>
+      <div class="contact-wrapper">
+        <div class="contact-wrapper1">
+          <form action="">
+            <div>
+            <label for="f.name">First Name</label>
+            <input type="text" id="f.name" name="first name" placeholder="type first name">
+          </div>  
+          <div>
+            <label for="l.name">Last Name</label>
+            <input type="text" id="l.name" name="last name" placeholder="type last name" >
+          </div> 
+          <div>
+            <label for="e.mail1">Email</label>
+            <input type="email" id="email1" name="email" placeholder="type email" >
+          </div>
+          <div class="contact-textarea">
+            <label for="textarea">Message</label>
+            <textarea name="textare" id="textarea" cols="30" rows="5" placeholder="type message"></textarea>
+          </div>
+          <input type="submit" value="submit" id="submit">
+          </form>
+        </div>
+        <div class="contact-wrapper2">
+          <h1>Location</h1>
+          <strong><p>Oslo gt 01A</p></strong>
+          <strong><p>0055</p></strong>
+          <strong><p>Oslo</p></strong>
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8000.812324557957!2d10.75405994887326!3d59.91217690986417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e5f94db8355%3A0xbad634696755ad81!2sGr%C3%B8nland%2C%200188%20Oslo!5e0!3m2!1sno!2sno!4v1610830653837!5m2!1sno!2sno" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </p>
+        </div>
       </div>
-      <div>
-        <p>
-          Rainydays is a sustainable online store 
-          that sells jackets with good quality. We 
-          have jackets for different activities. We 
-          have jackets for hiking, skiing, 
-          camping, canoeing and exploration. 
-          We are very focused on delivering 
-          good qualities at a suitable price. And 
-          is concerned that our customers are 
-          very happy with the products.
-        </p>
-      </div>
-    </div>
+    </section>
   </main>
   <footer class="footer-main">
     <div class="footer-wrapper">

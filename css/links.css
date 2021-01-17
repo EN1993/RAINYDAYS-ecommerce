@@ -1,0 +1,66 @@
+/* links*/
+.cta-buy-now {
+ margin: 10px 62px;
+ background: green;
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ padding: 2px 4px;
+}
+
+.cta-buy-now:hover {
+ border: 2px solid green;
+ background: white;
+ color: green;
+}
+
+.cta-cart {
+ background: green;
+ padding: 5px 73px;
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+ margin: 10px;
+}
+.cta-cart:hover {
+ border: 2px solid green;
+ background: white;
+ color: green;
+ padding: 3px 73px;
+}
+.cta {
+ color: white;
+ text-decoration: none;
+ background: black;
+ padding: 4px 13px;
+}
+.fas {
+ color: white;
+}
+
+.fa-cc-visa {
+ font-size: 25px;
+ color: white;
+ border: blue;
+ margin: 10px;
+}
+.fa-cc-mastercard {
+ font-size: 25px;
+ color: black;
+ margin: 10px;
+}
+.fas-men-products {
+ color: #b7b5b5;
+ padding-bottom: 40px;
+ position: relative;
+ bottom: 257px;
+ right: 62px;
+ font-size: 30px;
+}
+.fa-search {
+ position: relative;
+ position: relative;
+ left: 26px;
+ color: green;
+ top: 1px;
+}
