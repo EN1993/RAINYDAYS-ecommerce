@@ -1,119 +1,122 @@
-
 /*Media queries*/
-@media only screen and (min-width: 750px) {
-  header {
-   justify-content: start;
-  }
+@media only screen and (min-width: 400px) {
+ /* header {
+  justify-content: space-around;
+ }
+
+ nav {
+  display: block;
+  position: static;
+ }
+
+ nav li {
+  display: inline-block;
+  position: relative;
+ }
+
+ header label {
+  display: none;
+ }
+ .search-item {
+  position: relative;
+  margin-top: 50px;
+  bottom: 20px;
+  left: 3.75rem;
+ }
+ #search {
+  padding: 8px 63px 8px 49px;
+ } */
+
+ .wellcome-page {
+  padding-top: 10em;
+ }
+
+ .men-main-products {
+  padding-top: 211px;
+ }
+
  
-  nav {
-   display: block;
-   position: static;
-   margin: 0px auto;
-  }
+ .about {
+  padding-top: 13em;
+ }
  
-  nav li {
-   padding: 0px;
-   display: inline-block;
-   margin: 15px auto;
-   position: relative;
-  }
  
-  header label {
-   display: none;
-  }
-  .search-item {
-   position: relative;
-   margin-top: 50px;
-   bottom: 20px;
-   left: 3.75rem;
-  }
-  #search {
-   padding: 8px 63px 8px 49px;
-  }
-  .nav-icons {
-   position: relative;
-   left: 19rem;
-   bottom: 27px;
-  }
-  .logo {
-   position: relative;
-   bottom: 20px;
-   left: 20px;
-  }
-  .wellcome-page {
-   padding-top: 10em;
-  }
- 
-  .men-main-products {
-   padding-top: 211px;
-  }
- 
-  /*
-  .men-products {
-   grid-template-columns: repeat(3, 1fr);
-   gap: 25px;
-  }
-  */
-  .men--products {
-   grid-template-columns: repeat(3, 1fr);
-   gap: 25px;
-  }
-  .about {
-   padding-top: 13em;
-  }
+}
+@media only screen and (min-width: 650px) {
   .about-wrapper {
-   flex-direction: row;
-  }
-  .jacket-review {
-   padding-top: 205px;
-  }
+    flex-direction: row;
+   }
+  .jackets-mens {
+  grid-template-columns: repeat(2, 1fr);
  }
- /*
-  .jacket-overview {
-   grid-template-columns: 1fr 1fr ;
+ .checkoutOverview {
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
  }
- */
- @media only screen and (min-width: 950px) {
-  /*
-   .wellcome-products {
-   grid-template-columns: repeat(3, 1fr);
-  }
-  */
-  .footer-wrapper {
-   flex-direction: row;
-  }
-  .footer-wrapper {
-   flex-direction: row;
-  }
-  .product-links {
-   padding-left: 11rem;
-  }
-  .product--links {
-   padding-left: 16rem;
-  }
-  nav li {
-   margin: 15px 20px 15px 15px;
-  }
-  .search-item {
-   left: 17rem;
-  }
+
+}
+@media only screen and (min-width: 950px) {
+ header {
+  justify-content: space-around;
  }
- /*
-  .jacket-overview {
-   grid-template-columns: 1fr 1fr 1fr ;
+
+ nav {
+  display: block;
+  position: static;
  }
- */
- @media only screen and (min-width: 1200px) {
-  nav li {
-   margin: 15px 40px 15px 35px;
-  }
-  .search-item {
-   left: 31rem;
-  }
-  .logo {
-  }
-  .jacket-overview {
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+
+ nav li {
+  display: inline-block;
+  position: relative;
  }
- 
+
+ header label {
+  display: none;
+ }
+ .search-item {
+  position: relative;
+  margin-top: 50px;
+  bottom: 20px;
+  left: 3.75rem;
+ }
+ #search {
+  padding: 8px 63px 8px 49px;
+ }
+
+ .jackets-mens {
+  grid-template-columns: repeat(3, 1fr);
+ }
+ .footer-wrapper {
+  flex-direction: row;
+ }
+ .footer-wrapper {
+  flex-direction: row;
+ }
+ .product-links {
+  padding-left: 11rem;
+ }
+ .product--links {
+  padding-left: 16rem;
+ }
+
+ /* .jacket-overview {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ } */
+
+ .productss-0 {
+  /* margin: 25px auto; */
+
+  grid-template-columns: repeat(2, 1fr);
+ }
+ .checkoutOverview {
+  
+  /* margin: 0 auto; */
+  grid-template-columns: repeat(3, 1fr);
+ }
+
+ .checkout-0 {
+  
+  grid-template-columns: repeat(2, 1fr);
+  /* border: 2px solid #175563; */
+ }
+}

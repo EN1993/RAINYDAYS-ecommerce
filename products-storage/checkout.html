@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="Rainydays page for products">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/checkout.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,600;1,500;1,600&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <title>Rainydays|Products</title>
+  </head>
+<body>
+  <header>
+    <a href="index.html" class="logo"></a>
+    <label for="humburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="humburger-menu">
+    <nav>
+        <ul>
+          <li><a href="/index.html" >HOME</a></li>
+          <li><a href="/">WOMMEN</a></li>
+          <li><a href="/jackets.html" class="active">MEN</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+          <li><a href="/contact.html">CONTACT</a></li>
+          <li><a href="/" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
+        </ul>
+      <div class="search-item">
+        <i class="fas fa-search"></i>
+        <input type="search" id="search" placeholder=" search for product">
+      </div>
+      <div class="nav-icons">
+        <a href=""><i class="fas fa-heart"></i></a>
+        <a href=""><i class="fas fa-cart-plus"></i></a>        
+      </div>        
+    </nav>         
+  </header>
+  <main class="checkout-overview">
+    <section >
+      <div class="checkoutOverview">
+        <div class="deliver">
+          <h2>Deliverly</h2>
+          <div>
+            <input type="checkbox" class="checkbx">
+           <label for="checkbox"> Rainydays pickup point</label>
+          </div>
+          <div>
+           <input type="checkbox" class="checkbx">
+           <label for="checkbox">Home delivery</label>
+          </div>
+          <div>
+           <input type="checkbox" class="checkbx">
+           <label for="checkbox"> Delivery place</label>
+          </div>
+        </div>
+        <div class="account">
+            <h2>Account</h2>
+            <div>
+             <input type="email" class="email-account" placeholder="Email*"> 
+            </div>
+            <div>
+              <input type="post" class="post-account" placeholder="Post code">
+            </div>
+            <div>
+              <select name="" id="select-account">
+                <option value="0">Buy As</option>
+                <option value="">Private/Pers</option>
+                <option value="">Company/Corporate</option>
+              </select>
+            </div>
+        </div>
+        <div class="payment">
+         <h2>Payment</h2>
+         <div><input type="text" id="card-nr" name="card number" placeholder="Card number"></div>
+         <div><input type="text" id="expr-date" name="expire date" placeholder="mm/yy"></div>
+         <div><input type="text" id="cvc" name="cvc" placeholder="cvc"></div> 
+         <div>
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i> 
+         </div>
+         <div>
+           <input type="checkbox" class="checkbx">
+           <label for="checkbox"> Remmember Cardnumber</label>
+         </div>
+        </div>
+      </div>
+    </section>
+    <section class="checkout">
+      <div class="checkout-0">
+        <div class="checkout--0">
+          <img src="/images/rainy/skiing-Recoveredrrr.png" alt=" a person skiing">
+        </div>
+        <div class="checkout-1">
+          <h2>Men Skiing Jacket</h2>
+          <p>999kr</p>
+          <p>Size: M</p>
+          <p>Color: Red</p>
+          <p><a href="/chechout-page-(succesful).html" class="request-cta">Send Request</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-main">
+    <div class="footer-wrapper">
+      <section class="product-links">
+        <h1>about</h1>
+        <div>
+                <a href="/" class="cta">hiking</a>
+                <a href="/" class="cta">skiing</a>
+                <a href="/" class="cta">canoeing</a>
+                <a href="/" class="cta">exploring</a>
+                <a href="/" class="cta">camping</a>
+        </div>
+        <p>2020 copyright &copy; Rainydays pushing the comfort zone</p>
+    </section>
+    <section class="product--links">
+        <h1>contact</h1>
+        <div >
+                <a href="/" class="cta">  <i class="fab fa-instagram"></i> Instagram</a>
+                <a href="/" class="cta"> <i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="/" class="cta"><i class="far fa-play-circle"></i> Video</a>
+        </div>
+        <div class="contact--home">
+            <P class="footer-email">Rainydays@email.com</P>
+            <a href="index.html" class="footer-home"><i class="fas fa-home"> HOME</i></a>
+        </div>
+    </section>
+    </div>
+  </footer>
+</body>
+</html>

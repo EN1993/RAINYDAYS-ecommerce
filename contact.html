@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/media.css">
   <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,600;1,500;1,600&family=Reenie+Beanie&display=swap" rel="stylesheet">
   <title>Rainydays|contact</title>
 </head>
 <body>
@@ -16,31 +18,36 @@
     <label for="humburger-menu"><i class="fas fa-bars"></i></label>
     <input type="checkbox" id="humburger-menu">
     <nav>
-        <ul>
-          <li><a href="">WOMMEN</a></li>
-          <li><a href="men.html" >MEN</a></li>
-          <li><a href="index.html" >HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html" class="active">CONTACT</a></li>
-          <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
-        </ul>
+      <ul>
+        <li><a href="index.html" >HOME</a></li>
+        <li><a href="">WOMMEN</a></li>
+        <li><a href="jackets.html" >MEN</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+        <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
+      </ul>
       <div class="search-item">
-        <i class="fas fa-search"></i>
+        <!-- <i class="fas fa-search"></i>
         <input type="search" id="search" placeholder=" search for product">
-        <div class="nav-icons">
-          <a href=""><i class="fas fa-heart"></i></a>
-          <a href=""><i class="fas fa-cart-plus"></i></a>        
-        </div>        
-      </div>
+      </div> -->
+      <!-- <div class="nav-icons">
+        <a href=""><i class="fas fa-heart"></i></a>
+        <a href=""><i class="fas fa-cart-plus"></i></a>
+      </div> -->
     </nav>         
   </header>
   <main class="contact">
-    <section>
-      <h1>Contact Us</h1>
-      <div class="contact-wrapper">
-        <div class="contact-wrapper1">
-          <form action="">
-            <div>
+    <h1>Contact Us</h1>
+    <section class="map">
+      <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8000.812324557957!2d10.75405994887326!3d59.91217690986417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e5f94db8355%3A0xbad634696755ad81!2sGr%C3%B8nland%2C%200188%20Oslo!5e0!3m2!1sno!2sno!4v1610830653837!5m2!1sno!2sno" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </p>
+    </section>
+    <h2>Let's talk</h2>
+    <section class="contact-form01">
+      <form action="">
+        <div class="contact-form">
+          <div>
             <label for="f.name">First Name</label>
             <input type="text" id="f.name" name="first name" placeholder="type first name">
           </div>  
@@ -56,18 +63,19 @@
             <label for="textarea">Message</label>
             <textarea name="textare" id="textarea" cols="30" rows="5" placeholder="type message"></textarea>
           </div>
-          <input type="submit" value="submit" id="submit">
-          </form>
+          <button class="submit">Submit</button>
         </div>
-        <div class="contact-wrapper2">
-          <h1>Location</h1>
-          <strong><p>Oslo gt 01A</p></strong>
-          <strong><p>0055</p></strong>
-          <strong><p>Oslo</p></strong>
-          <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8000.812324557957!2d10.75405994887326!3d59.91217690986417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e5f94db8355%3A0xbad634696755ad81!2sGr%C3%B8nland%2C%200188%20Oslo!5e0!3m2!1sno!2sno!4v1610830653837!5m2!1sno!2sno" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </p>
-        </div>
+      </form>
+      <div class="contact--form">
+        <p>If you have question or spesial inquires. <br> 
+          Your're welcome to contact usor fill out <br> this form. 
+           
+        </p>
+        <p>Address: Oslo gt 01A</p>
+        <p>Code: 0055</p>
+        <p>City: Oslo</p>
+        <p>Tel: 0047 22 22 00 22</p>
+        
       </div>
     </section>
   </main>
@@ -75,31 +83,27 @@
     <div class="footer-wrapper">
       <section class="product-links">
         <h1>about</h1>
-          <div>
-            <ul>
-              <li><a href="" class="cta">hiking</a></li>
-              <li><a href="" class="cta">skiing</a></li>
-              <li><a href="" class="cta">canoeing</a></li>
-              <li><a href="" class="cta">exploring</a></li>
-              <li><a href="" class="cta">camping</a></li>          
-            </ul>
-          </div>
-          <p>2020 copyright &copy; Rainydays pushing the comfort zone</p>        
-      </section>
-      <section class="product--links">
-          <h1>contact</h1>
-          <div >
-            <ul>
-              <li><a href="" class="cta">  <i class="fab fa-instagram"></i> Instagram</a></li>
-              <li><a href="" class="cta"> <i class="fab fa-facebook-f"></i> Facebook</a></li>
-              <li><a href="" class="cta"><i class="far fa-play-circle"></i> Video</a></li>
-            </ul>        
-          </div>
-        <div class="contact--home">
-          <P class="footer-email">Rainydays@email.com</P>
-          <a href="index.html" class="footer-home cta"><i class="fas fa-home"> HOME</i></a>           
+        <div>
+                <a href="" class="cta">hiking</a>
+                <a href="" class="cta">skiing</a>
+                <a href="" class="cta">canoeing</a>
+                <a href="" class="cta">exploring</a>
+                <a href="" class="cta">camping</a>
         </div>
-      </section>
+        <p>2020 copyright &copy; Rainydays pushing the comfort zone</p>
+    </section>
+    <section class="product--links">
+        <h1>contact</h1>
+        <div >
+                <a href="" class="cta">  <i class="fab fa-instagram"></i> Instagram</a>
+                <a href="" class="cta"> <i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="" class="cta"><i class="far fa-play-circle"></i> Video</a>
+        </div>
+        <div class="contact--home">
+            <P class="footer-email">Rainydays@email.com</P>
+            <a href="index.html" class="footer-home"><i class="fas fa-home"> HOME</i></a>
+        </div>
+    </section>
     </div>
   </footer>
 </body>

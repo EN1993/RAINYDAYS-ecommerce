@@ -1,23 +1,29 @@
 @import "links.css";
 
 body {
- margin: 0px;
- min-height: 100vh;
- grid-template-rows: auto 1fr auto;
+ margin: 0 auto;
+ font-family: "Cormorant", serif, Verdana, Geneva, Tahoma, sans-serif;
+ 
+ /* font-family: "Reenie Beanie", cursive, Verdana, Geneva, Tahoma, sans-serif; */
+ font-family: "Advent Pro", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+
+
+ /* min-height: 100vh;
+ grid-template-rows: auto 1fr auto; */
 }
 
 /*Header section*/
 
 .logo {
- background-image: url(/images/logo-RN.png);
+ background-image: url(/images/rainyDaysLogo.png);
  background-size: cover;
- height: 65px;
- width: 85px;
- margin: 10px 50px;
+ height: 108px;
+ width: 165px;
+ margin: 10px;
 }
 
 header {
- background: #26616e;
+ background: white;
  color: white;
  display: flex;
  align-items: center;
@@ -25,34 +31,30 @@ header {
  position: fixed;
  width: 100%;
 }
-header a {
- padding: 10px;
-}
+
 nav {
  display: none;
  position: fixed;
  top: 105px;
  right: 0px;
  z-index: 1000;
- background: #26616e;
+ background: white;
 }
-nav ul {
- padding: 0px;
-}
+
 nav li {
  display: block;
- padding: 10px 20px;
- margin: 8px 55px;
+ margin: 10px 10px;
 }
 li a {
- color: white;
- background: #175563;
+ color: #175563;
  text-decoration: none;
  line-height: 2px;
+ font-size: 19px;
+ padding: 8px;
 }
 li a:hover {
  color: #175563;
- background: white;
+ border-bottom: 2px solid #175563;
 }
 #humburger-menu {
  display: none;
@@ -61,6 +63,10 @@ li a:hover {
  display: block;
 }
 
+.fa-bars {
+ color: #26616e;
+ font-size: 36px;
+}
 .search-item {
  position: relative;
  margin-top: 50px;
@@ -69,12 +75,15 @@ li a:hover {
 }
 #search {
  padding: 5px 5px 5px 24px;
+ border: 2px solid #175563;
 }
 
 .nav-icons {
  position: relative;
- left: 12rem;
- bottom: 24px;
+ bottom: 56px;
+ left: 29rem;
+ font-size: 34px;
+ color: #175563;
 }
 
 .logg-inn {
@@ -82,8 +91,7 @@ li a:hover {
  pointer-events: none;
 }
 .active {
- background: white;
- color: #26616e;
+  border-bottom: 2px solid #175563;
 }
 
 /* footer*/
@@ -131,15 +139,15 @@ footer {
 
 .footer-home {
  position: relative;
- top: 55px;
+ top: 62px;
  left: 30px;
  max-height: 35px;
- border: 1px solid;
+ border: 2px solid white;
  display: ruby;
 }
 .footer-email {
  position: relative;
- top: 60px;
+ top: 57px;
 }
 
 .overall-review {

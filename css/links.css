@@ -31,10 +31,11 @@
 .cta {
  color: white;
  text-decoration: none;
- background: black;
- padding: 4px 13px;
+ display: block;
+ padding-left: 45px;
 }
-.fas {
+
+.fa-home {
  color: white;
 }
 
@@ -49,18 +50,24 @@
  color: black;
  margin: 10px;
 }
-.fas-men-products {
+/* .fas-men-products {
  color: #b7b5b5;
  padding-bottom: 40px;
  position: relative;
  bottom: 257px;
  right: 62px;
  font-size: 30px;
-}
+} */
 .fa-search {
  position: relative;
  position: relative;
- left: 26px;
- color: green;
- top: 1px;
+ left: 30px;
+ color: #175563;
+ top: 2px;
+ font-size: 19px;
+}
+
+.fa-cart-plus,
+.fa-heart {
+ color: #175563;
 }

@@ -1,6 +1,7 @@
 {
-  "recommendations": [
-    "firefox-devtools.vscode-firefox-debug",
-    "esbenp.prettier-vscode"
-  ]
+ "recommendations": [
+  "firefox-devtools.vscode-firefox-debug",
+  "esbenp.prettier-vscode",
+  "christian-kohler.path-intellisense"
+ ]
 }

@@ -1,24 +1,28 @@
-
 /* about page */
 
-.about h1 {
-  text-align: center;
- }
- .about {
-  padding-top: 6em;
-  color: #025920;
- }
- .about-pictures img {
-  width: 300px;
- }
- .about-wrapper {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  margin: 25px auto;
-  padding: 10px;
- }
- .about-wrapper > * {
-  display: flex;
-  flex: 1;
- }
+h1 {
+ text-align: center;
+ color: #175563;
+}
+p {
+ font-size: 22px;
+ line-height: 1.5;
+}
+.about {
+ padding-top: 6em;
+}
+.about-pictures img {
+ width: 300px;
+ margin: 0 auto;
+}
+.about-wrapper {
+ max-width: 1000px;
+ display: flex;
+ flex-direction: column;
+ margin: 25px auto;
+ padding: 10px;
+}
+.about-wrapper > * {
+ display: flex;
+ flex: 1;
+}

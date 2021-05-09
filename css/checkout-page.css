@@ -40,21 +40,15 @@
   width: 250px;
   margin: 25px;
  }
- .jacket {
-  background: ;
- }
- .jacket-info {
-  background: ;
- }
- 
+
+
  .jacket--info {
   background: #26616e;
   width: 150px;
   height: 150px;
   margin: 25px;
  }
- .jacket-regulation {
- }
+ 
  .jacket--regulation {
   background: #26616e;
   width: 150px;
@@ -93,8 +87,7 @@
   margin: 5px 38px;
  }
  
- .jacket-tot-overview {
- }
+
  .jacket-tot--overview {
   width: 250px;
   height: 250px;

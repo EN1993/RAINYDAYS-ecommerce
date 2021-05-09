@@ -1,45 +1,73 @@
-
 /* contact page*/
 .contact {
-  padding-top: 200px;
- }
- .contact h1 {
-  text-align: center;
- }
- .contact-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
- }
- 
- .contact-wrapper1,
- .contact-wrapper2 {
-  height: 400px;
-  width: 300px;
-  border: 2px solid green;
-  padding: 10px;
- }
- 
- .contact-wrapper1 input {
-  display: block;
-  padding: 5px 48px;
-  border: 1px solid black;
- }
- .contact-textarea textarea {
-  border: 1px solid black;
-  display: block;
-  padding: 25px 0px;
- }
- #submit {
-  background: green;
-  cursor: pointer;
-  margin: 10px auto;
-  color: white;
-  font-weight: bold;
- }
- #submit:hover {
-  border: 2px solid green;
-  background: white;
-  color: green;
- }
+ padding-top: 10rem;
+}
+h1 {
+ text-align: center;
+ color: #175563;
+ font-size: 32px;
+ text-transform: uppercase;
+}
+h2 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 30px;
+ color: #175563;
+}
+
+.contact-form01 {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 45px;
+ padding: 10px;
+}
+
+.contact--form {
+ font-size: 19px;
+ font-weight: bold;
+ line-height: 1.6;
+}
+label {
+ font-weight: bold;
+ font-family: cursive;
+}
+
+.contact-form,
+.contact--form {
+ width: 300px;
+ /* padding-left: 80px; */
+}
+
+input {
+ display: block;
+ border: none;
+ border-bottom: 2px solid #175563;
+ width: 300px;
+ margin: 16px 0;
+}
+textarea {
+ border: none;
+ border-bottom: 2px solid #175563;
+ display: block;
+ width: 300px;
+ margin: 16px 0;
+}
+.submit {
+ background: #175563;
+ cursor: pointer;
+ margin: 10px auto;
+ color: white;
+ padding: 10px 32px;
+ font-size: 22px;
+ /* font-weight: bold; */
+}
+.submit:hover {
+ border: 2px solid #175563;
+ background: white;
+ color: #175563;
+}
+.map {
+ margin: 15px auto;
+ padding: 5px 20px;
+}

@@ -1,0 +1,93 @@
+.checkout-overview {
+ padding-top: 12rem;
+}
+
+.checkout-0 {
+ max-width: 770px;
+ margin: 25px auto;
+ display: grid;
+ grid-template-columns: 1fr;
+ /* border: 2px solid #175563; */
+}
+
+.checkout--0 {
+ width: 350px;
+ height: 350px;
+ /* border: 2px solid yellowgreen; */
+ margin: 0 auto;
+}
+
+.checkout-1 {
+ width: 300px;
+ height: 350px;
+ /* border: 2px solid blue; */
+ margin: 0 auto;
+}
+
+.checkout-1 p {
+ font-size: 22px;
+ font-weight: bold;
+}
+
+.checkoutOverview {
+ max-width: 1100px;
+ margin: 0 auto;
+ display: grid;
+ grid: template columns 1fr;
+}
+
+.deliver,
+.account,
+.payment {
+ width: 300px;
+ /* border: 2px solid green; */
+ margin: 0 auto;
+ padding: 10px;
+}
+
+.deliver label,
+.payment label {
+ font-size: 25px;
+}
+
+input[type="checkbox"] {
+ width: 25px;
+ height: 25px;
+}
+
+.account input,
+.account select {
+ padding: 6px;
+ margin: 4px;
+ border: 2px solid #175563;
+}
+
+.payment input {
+ margin: 4px;
+ border: 2px solid #175563;
+ padding: 5px 46px;
+}
+.fa-cc-visa {
+ font-size: 30px;
+ color: blue;
+}
+.fa-cc-mastercard {
+ font-size: 30px;
+ color: rgb(107, 84, 27);
+}
+
+h2 {
+ padding-left: 50px;
+}
+.request-cta {
+ background: #175563;
+ text-decoration: none;
+ color: white;
+ padding: 7px 37px;
+}
+
+.request-cta:hover {
+ border: 2px solid #175563;
+ background: white;
+ color: #175563;
+}
