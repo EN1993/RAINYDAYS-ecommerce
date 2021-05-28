@@ -1,10 +1,10 @@
 
 const form = document.querySelector("#contactForm");
 
-const fName = document.querySelector("#f.name");
+const fName = document.querySelector("#fname");
 const fNameError = document.querySelector(".fNameError");
 
-const lName = document.querySelector("#l.name");
+const lName = document.querySelector("#lname");
 const lNameError = document.querySelector(".lNameError");
 
 const email = document.querySelector("#email");

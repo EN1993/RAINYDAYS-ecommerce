@@ -37,7 +37,8 @@ nav {
  top: 105px;
  right: 0px;
  z-index: 1000;
- background: white;
+ background: #175563;
+ padding: 0px 50px;
 }
 
 nav li {
@@ -45,7 +46,7 @@ nav li {
  margin: 10px 10px;
 }
 li a {
- color: #175563;
+ color: white;
  text-decoration: none;
  line-height: 2px;
  font-size: 19px;

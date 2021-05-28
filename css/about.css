@@ -1,6 +1,7 @@
 /* about page */
 
-h1 {
+h1,
+h2 {
  text-align: center;
  color: #175563;
 }
@@ -9,20 +10,23 @@ p {
  line-height: 1.5;
 }
 .about {
- padding-top: 6em;
+ padding-top: 8em;
 }
-.about-pictures img {
- width: 300px;
- margin: 0 auto;
-}
-.about-wrapper {
- max-width: 1000px;
- display: flex;
- flex-direction: column;
- margin: 25px auto;
+.about-pictures {
+ width: 400px;
  padding: 10px;
 }
-.about-wrapper > * {
+
+.our-company {
+ width: 400px;
+ padding: 10px;
+}
+.about-wrapper {
+ max-width: 1200px;
  display: flex;
- flex: 1;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 0 auto;
+ padding-top: 50px;
+ gap: 55px;
 }
