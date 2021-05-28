@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="discription" content="Rainydays page for about rainydays">
+  <meta name="discription" content="Rainydays page for men products">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/men.css">
   <link rel="stylesheet" href="css/media.css">
   <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,52 +21,36 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-  <title>Rainydays|About</title>
+  <title>Rainydays|Men Products</title>
 </head>
 <body>
   <header>
-    <a href="index.html" class="logo"></a>
+    <a href="/index.html" class="logo"></a>
     <label for="humburger-menu"><i class="fas fa-bars"></i></label>
     <input type="checkbox" id="humburger-menu">
     <nav>
         <ul>
           <li><a href="index.html" >HOME</a></li>
           <li><a href="">WOMAN</a></li>
-          <li><a href="products.html" >MEN</a></li>
-          <li><a href="about.html" class="active">ABOUT</a></li>
+          <li><a href="products.html" class="">MEN</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
         </ul>
-      <!-- <div class="search-item">
+      <div class="search-item">
         <i class="fas fa-search"></i>
-        <input type="search" id="search" placeholder=" search for product">       
+        <input type="search" id="search" placeholder=" search for product">
       </div>
       <div class="nav-icons">
         <a href=""><i class="fas fa-heart"></i></a>
         <a href=""><i class="fas fa-cart-plus"></i></a>        
-      </div>  -->
+      </div>        
     </nav>         
   </header>
-  <main class="about"> 
-    <h1>ABOUT US</h1>
-    <div class="about-wrapper">
-      <div class="about-pictures">
-        <img src="images/camping 1-Recovered 668 x,y.png" alt="picture of camping">
-      </div>
-      <div>
-        <p>
-          Rainydays is a sustainable online store 
-          that sells jackets with good quality. We 
-          have jackets for different activities. We 
-          have jackets for hiking, skiing, 
-          camping, canoeing and exploration. 
-          We are very focused on delivering 
-          good qualities at a suitable price. And 
-          is concerned that our customers are 
-          very happy with the products.
-        </p>
-      </div>
-    </div>
+  <main class="cart-page">
+    <div class="cart-list"></div>
+    <div class="total"></div>
+
   </main>
   <footer class="footer-main">
     <div class="footer-wrapper">
@@ -95,5 +79,6 @@
     </section>
     </div>
   </footer>
+  <script src="JS/cart.js"></script>
 </body>
 </html>

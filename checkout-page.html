@@ -8,6 +8,20 @@
   <link rel="stylesheet" href="css/checkout-page.css">
   <link rel="stylesheet" href="css/media.css">
   <script src="https://kit.fontawesome.com/bde21681ac.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600;700&family=Cormorant:ital,wght@0,300;0,400;0,600;1,500;1,600&family=Reenie+Beanie&display=swap" rel="stylesheet">
+   <!-- Hotjar Tracking Code for https://epic-clarke-b3c7c7.netlify.app/ -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2394778,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+    
   <title>Rainydays|checkout</title>
 </head>
 <body>
@@ -19,7 +33,7 @@
         <ul>
           <li><a href="index.html" >HOME</a></li>
           <li><a href="">WOMMEN</a></li>
-          <li><a href="jackets.html" class="">MEN</a></li>
+          <li><a href="products.html" class="">MEN</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="" class="logg-inn"><i class="fas fa-user-circle"></i> LOGG INN</a></li>       
@@ -35,54 +49,10 @@
     </nav>         
   </header>
   <main class="jacket-review">
-    <section>
-      <div class="overall-review">
-        <input type="checkbox" class="checkbx1">
-        <label for="">Logg Inn</label>
-        <input type="checkbox" class="checkbx1">
-        <label for="">Address</label>
-        <input type="checkbox" class="checkbx1">
-        <label for="">Payment</label>
-        <input type="checkbox" class="checkbx1">
-        <label for="">Acception</label>
-        <input type="checkbox" class="checkbx1">
-        <label for="">Done</label>
-      </div>
-    </section>
-    <section>
-      <div class="jacket-overview">
-        <div class="jacket"><img src="/images/skiing-Recovered 416xy.png" alt=""></div>
-        <div class="jacket-info">
-          <div class="jacket--info">
-            <h1>Jacket</h1>
-            <div><span>Color:</span><span> Red</span></div>
-            <div><p>Size: M</p></div>
-            <div><a href="empty-cart.html" class="delete-btn"><i class="far fa-trash-alt"></i> Delete</a></div>
-          </div>
-        </div>
-        <div class="jacket-regulation">
-          <div class="jacket--regulation">
-            <input type="button" value="-" class="minus-btn">
-            <input type="number" step="1" value="1" class="number-field">
-            <input type="button" value="+" class="plus-btn">
-            <div>
-              <input type="price" class="price">
-            </div>
-          </div>
-        </div>
-        <div class="jacket-tot-overview">
-          <div class="jacket-tot--overview">
-            <div class="total"><h1>TOTAL</h1></div>
-            <div>
-              <div class="sum"><span>Sum</span><span>499,-</span></div>
-              <div class="deliverly"><span>Deliverly</span><span>Free</span></div>
-              <div class="tot-sum"><p>Total sum (inkl Tax)</p></div>
-              <div class="tot-price"><p>499,-</p></div>
-              <div><a href="chechout-page-(succesful).html" class="request-btn">Send Request</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="cart-page">
+        <div class="cart-list"></div>
+        <div class="total"></div>
+        <a href="chechout-page-(succesful).html" class="request-button">Send Request</a>
     </section>
     <section>
       <div class="account-payment-deliver">
@@ -159,5 +129,6 @@
     </section>
     </div>
   </footer>
+  <script src="JS/cart.js"></script>
 </body>
 </html>

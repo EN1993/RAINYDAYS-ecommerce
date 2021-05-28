@@ -1,89 +1,86 @@
-
 /* checkout page succesful*/
 .checkout-succesful {
-  padding-top: 205px;
- }
- 
- .custum-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- }
- .custum--info {
-  width: 550px;
-  height: 250px;
-  border: 2px solid #26616e;
-  margin: 25px;
-  padding: 10px;
- }
- 
- .custum--info h1 {
-  text-align: center;
-  border-bottom: 3px solid #26616e;
- }
- 
- .custum--info3,
- .custum--info2,
- .custum--info1 p {
-  font-size: 17px;
-  font-weight: bold;
-  background: #26616e;
-  text-align: center;
-  color: white;
- }
- 
- .custum--info3 {
-  justify-content: space-between;
-  display: flex;
- }
- 
- .custom-review {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 25px;
- }
- 
- .custom-review-payment h1 {
-  text-align: center;
- }
- 
- .custom-review-payment,
- .custom-review-adress,
- .custom-review-goods {
-  height: 300px;
-  width: 300px;
-  border: 2px solid #26616e;
-  padding: 10px;
- }
- .fa-cc-visa-payment {
-  color: blue;
- }
- .custom-review--payment {
-  display: flex;
- }
- 
- .custom-review--payment p {
-  font-size: 15px;
-  font-weight: bold;
-  background: #26616e;
-  color: white;
- }
- 
- .custom-review-adress {
- }
- 
- .custom-review-goods,
- .custom-review-adress p {
-  font-size: 15px;
-  font-weight: bold;
- }
- .custom-review-adress h1,
- h2 {
-  text-align: center;
-  border-bottom: 3px solid #26616e;
- }
- .custom-review-goods img {
-  height: 150px;
- }
+ padding-top: 205px;
+}
+
+.custum-info {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.custum--info {
+ width: 550px;
+ height: 170px;
+ border: 2px solid #26616e;
+ margin: 25px;
+ padding: 10px;
+}
+
+.custum--info h1 {
+ text-align: center;
+ border-bottom: 3px solid #26616e;
+}
+
+.custum--info3,
+.custum--info2,
+.custum--info1 p {
+ font-size: 17px;
+ font-weight: bold;
+ background: #26616e;
+ text-align: center;
+ color: white;
+}
+
+.custum--info3 {
+ justify-content: space-between;
+ display: flex;
+}
+
+.custom-review {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ margin: 25px;
+}
+
+.custom-review-payment h1 {
+ text-align: center;
+}
+
+.custom-review-payment,
+.custom-review-adress,
+.custom-review-goods {
+ height: 300px;
+ width: 300px;
+ border: 2px solid #26616e;
+ padding: 10px;
+}
+.fa-cc-visa-payment {
+ color: blue;
+}
+.custom-review--payment {
+ display: flex;
+}
+
+.custom-review--payment p {
+ font-size: 15px;
+ font-weight: bold;
+ background: #26616e;
+ color: white;
+}
+
+
+.custom-review-goods,
+.custom-review-adress p {
+ font-size: 15px;
+ font-weight: bold;
+}
+.custom-review-adress h1,
+h2 {
+ text-align: center;
+ border-bottom: 3px solid #26616e;
+}
+.custom-review-goods img {
+ height: 150px;
+}

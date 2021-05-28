@@ -1,180 +1,59 @@
-
 /* checkout page*/
 
 .jacket-review {
-  padding-top: 135px;
- }
- /*
- .jacket-overview div:nth-child(odd) {
-  background: rgb(39, 63, 39);
- }
- */
- /*
- .jacket-overview {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: minmax(300px, auto);
-  background: black;
-  max-width: 1200px;
-  margin: 50px auto;
- }
- */
- 
- .jacket-overview {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
- }
- 
- .jacket-info,
- .jacket-regulation,
- .jacket-tot-overview,
- .jacket {
-  height: 300px;
-  width: 300px;
-  background: white;
- }
- 
- .jacket img {
-  width: 250px;
-  margin: 25px;
- }
+ padding-top: 13rem;
+}
 
+.account-payment-deliver {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+ padding-top: 50px;
+}
+.deliver h1,
+.account h1,
+.payment h1 {
+ text-align: center;
+}
+.account,
+.payment,
+.deliver {
+ height: 300px;
+ width: 300px;
+ border: 2px solid #26616e;
+}
+#cvc,
+#expr-date,
+#card-nr,
+#select-account,
+.account input {
+ padding-top: 2px 5px;
+ border: 2px solid black;
+ padding: 3px 0px;
+ text-align: center;
+}
+#select-account {
+ padding: 3px 0px;
+}
+#cvc,
+#expr-date,
+#card-nr,
+#select-account,
+.email-account,
+.post-account {
+ margin: 10px;
+}
 
- .jacket--info {
-  background: #26616e;
-  width: 150px;
-  height: 150px;
-  margin: 25px;
- }
- 
- .jacket--regulation {
-  background: #26616e;
-  width: 150px;
-  height: 150px;
-  margin: 25px;
- }
- .jacket--regulation input {
-  border: 1px solid #26616e;
-  box-sizing: border-box;
-  margin: 0;
-  outline: none;
-  background: white;
- }
- 
- .jacket--regulation .minus-btn,
- .jacket--regulation .plus-btn {
-  font-weight: bold;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
- }
- 
- .jacket--regulation .number-field {
-  height: 38px;
-  text-align: center;
-  width: 62px;
-  font-size: 13px;
-  margin: 0px 0px 5px;
- }
- 
- .jacket--regulation .price {
-  height: 35px;
-  width: 78px;
-  left: 10px;
-  text-align: center;
-  margin: 5px 38px;
- }
- 
+.checkbx {
+ padding: 0px;
+ margin: 10px;
+}
 
- .jacket-tot--overview {
-  width: 250px;
-  height: 250px;
-  margin: 25px;
-  background: #26616e;
- }
- .total {
-  text-align: center;
- }
- .deliverly,
- .sum {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 20px;
- }
- .tot-sum,
- .tot-price {
-  padding: 0px 20px;
- }
- .request-btn {
-  margin: 5px 70px;
-  background: green;
-  color: white;
-  text-decoration: none;
-  padding: 3px 6px;
-  font-weight: bold;
- }
- .delete-btn:hover,
- .request-btn:hover {
-  border: 2px solid green;
-  color: green;
-  background: white;
- }
- 
- .delete-btn {
-  margin: 6px 35px;
-  background: green;
-  color: white;
-  text-decoration: none;
-  padding: 3px 6px;
-  font-weight: bold;
- }
- .account-payment-deliver {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding-top: 50px;
- }
- .deliver h1,
- .account h1,
- .payment h1 {
-  text-align: center;
-  color: white;
- }
- .account,
- .payment,
- .deliver {
-  height: 300px;
-  width: 300px;
-  background: #26616e;
- }
- #cvc,
- #expr-date,
- #card-nr,
- #select-account,
- .account input {
-  padding-top: 2px 5px;
-  border: 1px solid black;
-  background: #26616e;
-  color: white;
-  padding: 3px 0px;
-  text-align: center;
- }
- #select-account {
-  padding: 3px 0px;
- }
- #cvc,
- #expr-date,
- #card-nr,
- #select-account,
- .email-account,
- .post-account {
-  margin: 10px;
- }
- 
- .checkbx {
-  padding: 0px;
-  margin: 10px;
- }
+.fa-cc-visa {
+ background: blue;
+}
+
+.fa-cc-mastercard {
+ background: rgb(136, 113, 12);
+}

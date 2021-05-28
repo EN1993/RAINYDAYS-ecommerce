@@ -60,6 +60,8 @@ textarea {
  color: white;
  padding: 10px 32px;
  font-size: 22px;
+ border: none;
+ transition: all 1s;
  /* font-weight: bold; */
 }
 .submit:hover {
@@ -70,4 +72,12 @@ textarea {
 .map {
  margin: 15px auto;
  padding: 5px 20px;
+}
+
+.errorForm {
+ display: none;
+ color: red;
+ font-size: 16px;
+ margin-bottom: 2px;
+ padding-bottom: 9px;
 }
