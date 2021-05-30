@@ -36,7 +36,6 @@ buttons.forEach(function(button) {
 });
 
 function showCart(cartItems) {
-  
   cart.style.display = "flex";
   cartList.innerHTML="";
   let total = 0;
