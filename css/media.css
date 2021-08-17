@@ -1,7 +1,5 @@
 /*Media queries*/
 @media only screen and (min-width: 400px) {
- 
-
  .wellcome-page {
   padding-top: 10em;
  }
@@ -15,10 +13,7 @@
  }
 }
 @media only screen and (min-width: 650px) {
- 
- /* .jackets-mens {
-  grid-template-columns: repeat(2, 1fr);
- } */
+
  .checkoutOverview {
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
@@ -29,8 +24,7 @@
  }
 }
 @media only screen and (min-width: 950px) {
- 
-  header {
+ header {
   justify-content: space-around;
  }
 
@@ -62,9 +56,7 @@
   padding: 8px 63px 8px 49px;
  }
 
- /* .jackets-mens {
-  grid-template-columns: repeat(3, 1fr);
- } */
+
  .footer-wrapper {
   flex-direction: row;
  }
@@ -78,20 +70,12 @@
   padding-left: 16rem;
  }
 
- 
  .productss-0 {
-  
-
   grid-template-columns: repeat(2, 1fr);
- }
- .checkoutOverview {
- 
-  grid-template-columns: repeat(3, 1fr);
  }
 
  .checkout-0 {
   grid-template-columns: repeat(2, 1fr);
-  
  }
 
  .products {
