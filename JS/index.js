@@ -12,4 +12,5 @@ async function getProducts(url) {
  });
     
 }
+products(product);
 getProducts(baseUrl);
