@@ -1,16 +1,22 @@
 const baseUrl ='https://sub.enlive.one/wp-json/wc/store/products';
-const productContainer = document.querySelector(".featured-products");
+const productContainer = document.querySelector(".products");
 
 
 async function getProducts(url) {
   const response = await fetch(url);
-  const products = response.json();
+  const products = await response.json();
   products.forEach(function(product) {
   productContainer.innerHTML +=`
-  <div class='product'> <h2> ${product.name} </h2> </div>
+  <a href="productSpecific.html?id=${product.id}}">
+  <div class='product'>
+   <h2> ${product.name} </h2> 
+   <div class='product-image'style="background-image:url('${product.images[0].src}')"> </div>
+   <p>$ ${product.prices.price}</p>
+  
+  </div>
   `
  });
     
 }
-products(product);
+
 getProducts(baseUrl);

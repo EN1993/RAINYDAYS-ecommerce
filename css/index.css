@@ -1,30 +1,41 @@
 /* Home page */
 .wellcome-page {
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  padding-top: 5em;
- }
- .wellcome-products {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0px auto;
-  gap: 10px;
-  padding-top: 50px;
- }
- 
- .wellcome-pictures img {
-  width: 300px;
- }
- .wellcome-figcap {
-  width: 300px;
-  background: #175563;
-  opacity: 0.75;
-  color: white;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 4px;
-  z-index: -1;
- }
+ max-width: 1200px;
+ margin: auto;
+ text-align: center;
+ display: flex;
+ padding-top: 5em;
+}
+
+h1 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 30px;
+ color: #175563;
+}
+.wellcome-products {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 0px auto;
+ gap: 10px;
+ padding-top: 50px;
+}
+
+.wellcome-pictures img {
+ width: 300px;
+}
+.wellcome-figcap {
+ width: 300px;
+ background: #175563;
+ opacity: 0.75;
+ color: white;
+ text-transform: uppercase;
+ position: relative;
+ bottom: 4px;
+ z-index: -1;
+}
+
+.ft-products {
+ padding-top: 45px;
+}
