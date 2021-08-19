@@ -1,9 +1,12 @@
 const querystring = document.location.search;
-const parms = new URLSearchParams(querystring);
-const id = parms.get("id");
+
+const params = new URLSearchParams(querystring);
+
+const id = params.get("id");
+
 console.log(id);
 
-const url ="https://sub.enlive.one/wp-json/wc/store/products/35";
+const url ="https://sub.enlive.one/wp-json/wc/store/products/30";
 
 const specificContainer = document.querySelector(".Pspecific");
 
@@ -13,10 +16,10 @@ async function productSpecific() {
   console.log(specific);
 
   
-  specificContainer.innerHTML+=`<div>
+  specificContainer.innerHTML+=`<div class="product-specific">
                                   <h2>${specific.name}</h2>
-                                  <div class='product-image'style="background-image:url('${specific.images[0].src}')"> </div>
-                                  <p>$ ${specific.prices.price}</p>
+                                  <div class='product-specific-image'style="background-image:url('${specific.images[0].src}')"> </div>
+                                  <p> <b>$ ${specific.prices.price}</b></p>
                                 </div>`
 }
 productSpecific();
