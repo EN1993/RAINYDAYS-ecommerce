@@ -6,7 +6,7 @@ const id = params.get("id");
 
 console.log(id);
 
-const url ="https://sub.enlive.one/wp-json/wc/store/products/30";
+const url ="https://sub.enlive.one/wp-json/wc/store/products/" +id;
 
 const specificContainer = document.querySelector(".Pspecific");
 
