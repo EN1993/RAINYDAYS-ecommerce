@@ -174,19 +174,6 @@ footer {
   height: 300px;
   width: 300px;
 }
-.Pspecific {
-  max-width: 1000px;
-  margin: 25px auto;
-}
-
-.product-specific-image {
-  border-radius: 50%;
-}
-.product-specific {
-  margin: 25px auto;
-  background: #efefef;
-  width: 350px;
-}
 
 .product-button {
   background: #175563;
@@ -274,4 +261,30 @@ footer {
 
 .productCarts {
   padding-top: 200px;
+}
+
+/*featured products*/
+
+.Pspecific {
+  max-width: 1000px;
+  margin: 25px auto;
+}
+
+.product-specific-image {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.product-specific {
+  margin: 25px auto;
+  background: #efefef;
+  width: 350px;
+  text-align: center;
+}
+
+.error {
+  background: rgb(204, 164, 164);
+  border: 2px solid rgb(80, 0, 0);
+  padding: 1rem;
+  margin: 2px;
+  font-size: 1rem;
 }
